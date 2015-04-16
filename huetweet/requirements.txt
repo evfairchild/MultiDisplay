@@ -1,0 +1,7 @@
+-i http://pypi.sprocketlight.com/simple
+
+backoff==1.0.4
+phue==0.8
+requests==2.5.1
+websocket-client==0.23.0
+zymbit==0.0.7
