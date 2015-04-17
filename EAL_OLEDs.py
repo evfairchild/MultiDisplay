@@ -171,7 +171,7 @@ def OLEDanimate2(dev,path,loops,clear=True):
                for y in range(height):
                        oled.draw_pixel(x+15,y+4,bool(int(im_bw.getpixel((x,y)))))
          oled.display()
-         time.sleep(.025)
+         time.sleep(.1)
           
    gpio.cleanup()
    

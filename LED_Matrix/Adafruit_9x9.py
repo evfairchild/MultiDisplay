@@ -30,7 +30,6 @@ class NineByNine:
 
   def setPixel(self, x, y, color=1):
     "Sets a single pixel"
-    if x==6 and y==3;
     if (x >= 16):
       return
     if (y >= 9):
